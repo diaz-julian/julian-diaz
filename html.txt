@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colombia Compra Eficiente</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0033a0;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0052cc;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1em 1.5em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #003d80;
+    }
+
+    .hero {
+      background-color: #e6f0ff;
+      padding: 3em;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #444;
+    }
+
+    .contenedor {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2em;
+      padding: 2em;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5em;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #0033a0;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Colombia Compra Eficiente</h1>
+    <p>Transparencia y eficiencia en las compras del Estado</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Empresas</a>
+    <a href="#">Ciudadanos</a>
+    <a href="#">Normativa</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Bienvenido al Portal de Compras del Estado</h1>
+    <p>Consulta procesos, participa como proveedor o aprende sobre contratación pública</p>
+  </section>
+
+  <main class="contenedor">
+    <div class="card">
+      <h2>Consulta procesos</h2>
+      <p>Explora contrataciones activas y realiza seguimiento a las compras públicas.</p>
+    </div>
+    <div class="card">
+      <h2>Guías y documentos</h2>
+      <p>Aprende cómo contratar con el Estado, paso a paso y con ejemplos claros.</p>
+    </div>
+    <div class="card">
+      <h2>Portal de proveedores</h2>
+      <p>Accede a tu cuenta, registra tu empresa y participa en licitaciones.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Colombia Compra Eficiente. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
